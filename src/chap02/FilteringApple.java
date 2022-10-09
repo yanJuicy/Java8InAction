@@ -18,7 +18,7 @@ public class FilteringApple {
 		List<Apple> redApples = filterApplesByColor(inventory, "red");
 		System.out.println(redApples);
 
-		redApples = filter(inventory, (Apple apple) -> "red".equals(apple.getColor());
+		redApples = filter(inventory, (Apple apple) -> "red".equals(apple.getColor()));
 
 	}
 
